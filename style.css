@@ -4,7 +4,16 @@ body{
 	height:100vh;
 	margin:0 auto;
 	overflow:hidden;
+	transition: height 0.5s ease;
 }
+
+body:hover{
+	background:#66c;
+	background-image:linear-gradient(-25deg, #66c000,#fff);
+	height:10vh;
+}
+
+
 svg{
 	position:absolute;
 	top:50%;
